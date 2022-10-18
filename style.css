@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Sofia&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap') */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    padding: 0 50px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+}
+
+/* Donate now section */
+.donate-now{
+    width: 100%;
+    height: 550px;
+}
+
+.donate-now .bgImage{
+    width: 100%;
+    height: 100%;
+    background-image: url('image/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    background-size:cover;
+
+}
+.donate-now .bgImage .overlay{
+    background-color: rgba(0, 0, 0, 0.74);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-now .bgImage .content{
+    color: white;
+    text-align: center;
+}
+.donate-now .bgImage .content h1{
+    font-size: 55px;
+}
+.donate-now .bgImage .content p{
+    letter-spacing: 2px;
+    padding: 24px;
+}
+.donate-btn{
+    background-color: tomato;
+    border: none;
+    padding: 12px 16px;
+    color: white;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Donate Today Section */
+    
+    .donate-today{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        padding: 50px 0px;
+        row-gap: 20px;
+    }
+
+
+    .donate-today .second-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .donate-today .second-section h2{
+        padding: 16px 8px;
+        color: rgb(73, 72, 72);
+    }
+    .donate-today .second-section h2:hover{
+        border: 2px solid tomato;
+        border-radius: 3px;
+        color: tomato;
+    }
+
+
+    .donate-today .third-section input{
+        width: 480px;
+        padding: 5px 10px;
+        border: none;
+        border-bottom: 1px solid gray;
+        text-align: center;
+    }
+
+    .donate-today p{
+        color: gray;
+        letter-spacing: 1.5px;
+    }
+    /* ..Our donate plan */
+    .donate-plan{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        row-gap: 32px;
+        padding: 24px 0px;
+    }
+    .donate-plan .our-plan{
+        text-align: center;
+    }
+    .donate-plan .food-shelter-education{
+        display: flex;
+        column-gap: 24px;
+    }
+    .donate-plan .food, .shelter, .education{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 32px 24px;
+        background-color: rgb(240, 232, 221);
+    }
+
+    .donate-plan .food{
+        background-color: rgb(216, 242, 250);
+    }
+    .donate-plan .shelter{
+        background-color: rgb(250, 216, 221);
+    }
+    .donate-plan p{
+        color: gray;
+        letter-spacing: 1.5px;
+    }
+
+    /* How to Contribute */
+    .contribute{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-around;
+        min-height: 400px;
+        margin: 32px 0px;
+    }
+    .contribute .text-sec{
+        width: 40%;
+    }
+    .contribute .image-sec{
+        max-width: 400px;
+        height: 100%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        
+    }
+    .contribute p{
+        color: gray;
+        letter-spacing: 1px;
+    }
+    .contribute .image-sec img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding: 16px;
+        
+    }
+     /* How to Contribute 2*/
+     .contribute2{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-around;
+        min-height: 400px;
+        margin: 32px 0px;
+    }
+    .contribute2 .text-sec2{
+        width: 40%;
+        order: 2;
+    }
+    .contribute2 .image-sec2{
+        max-width: 400px;
+        height: 100%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        
+    }
+    .contribute2 p{
+        color: gray;
+        letter-spacing: 1px;
+    }
+    .contribute2 .image-sec2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding: 16px;
+        
+    }
+
+    /* get my updates */
+    .get-update{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        row-gap: 32px;
+        margin: 50px 0px;
+        width: 100%;
+    }
+    .get-update .update{
+        text-align: center;
+    }
+    .get-update .update p{
+        color: gray;
+    }
+    .get-update .subscribe{
+        background-color: rgb(243, 243, 207);
+        width: 50%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 36px;
+        
+    }
+    .subscribe .input-text input, .subscribe-btn button{
+        padding: 8px 16px;
+        border: none;
+    }
+    .subscribe-btn button{
+        background-color: tomato;
+        color: white;
+        
+    }
+
+    /* footer-sec */
+
+    .footer-sec{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 40px;
+    }
+    .footer-sec h1{
+        font-family: 'Sofia', cursive;
+        color: tomato;
+    }
+
+/* Media Queris section */
+@media only screen and (max-width:767px){
+
+    /* Donate now section */
+    .donate-now{
+        height: 350px;
+
+    }
+    .donate-now .bgImage .content h1{
+        font-size: 20px;
+    }
+
+    /* donate Plan section */
+    .donate-plan .food-shelter-education{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 24px;
+    }
+    /* how to contribute  */
+    .contribute{
+        flex-wrap: wrap;
+    }
+    .contribute .text-sec{
+        width: 100%;
+        order: 2;
+    }
+    .contribute .text-sec h1{
+        font-size: 24px;
+    }
+    .contribute .image-sec{
+        order: 1;
+        width: 100%;
+        height:auto;
+        margin-bottom: 16px;
+
+        
+    }
+     /* how to contribute 2 */
+     .contribute2{
+        flex-wrap: wrap;
+
+    }
+    .contribute2 .text-sec2{
+        width: 100%;
+        order: 2;
+    }
+    .contribute2 .text-sec2 h1{
+        font-size: 24px;
+    }
+    .contribute2 .image-sec2{
+        order: 1;
+        width: 100%;
+        height:auto;
+        margin-bottom: 16px;
+
+        
+    }
+        /* get my updates */
+        .get-update .subscribe{
+            width: 100%;
+            padding: 0px 150px;
+            
+        }
+
+        /* footer section */
+        .footer-sec{
+            padding: 8px;
+        }
+        .footer-sec h1{
+            font-size: 18px;
+        }
+        .footer-sec p{
+            font-size: 10px;
+        }
+}
